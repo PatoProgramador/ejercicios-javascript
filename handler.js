@@ -1,11 +1,18 @@
-const exercisesHandler = {
-    1: {
+const exercisesHandler = [
+    {
         name: "Fizz-buzz",
         exec: require("./exercises/fizzbuzz")
     },
-    2: {
+    {
         name: "prueba"
+    },
+    {
+        name: "aawdawd"
     }
-};
+];
+
+const searchExercise = (number) => {
+    
+}
 
 module.exports = { exercisesHandler };
